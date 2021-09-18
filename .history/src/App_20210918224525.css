@@ -57,7 +57,6 @@ button {
 
 .menu {
   display: flex;
-  justify-content: center;
 }
 .menu-link {
   font-size: 1.4rem;

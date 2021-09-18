@@ -1,3 +1,5 @@
+/* ends */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 :root {
   --primary: #08aeea;
@@ -17,7 +19,6 @@
 }
 html {
   font-size: 62.5%;
-  text-align: center;
 }
 
 body {
@@ -57,7 +58,6 @@ button {
 
 .menu {
   display: flex;
-  justify-content: center;
 }
 .menu-link {
   font-size: 1.4rem;
@@ -135,10 +135,6 @@ button {
   .menu-child-item.has-child:hover > .menu-child {
     display: block;
   }
-}
-
-ul li {
-  list-style: none;
 }
 @media screen and (max-width: 1023px) {
   .menu {

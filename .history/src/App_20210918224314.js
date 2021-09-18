@@ -7,14 +7,14 @@ export default function App() {
     <Router>
       <div>
         <nav>
-          <ul className="menu">
+          <ul class="menu">
             <li class="menu-item has-child">
               <Link to="/">Home</Link>
             </li>
-            <li className="menu-item has-child">
+            <li class="menu-item has-child">
               <Link to="/about">About</Link>
             </li>
-            <li className="menu-item has-child">
+            <li class="menu-item has-child">
               <Link to="/users">Users</Link>
             </li>
           </ul>
