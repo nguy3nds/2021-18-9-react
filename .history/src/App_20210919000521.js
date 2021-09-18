@@ -12,13 +12,13 @@ export default function App() {
         <nav>
           <ul className="menu">
             <li class="menu-item has-child">
-              <Link to="/What">What?</Link>
+              <Link to="/">What?</Link>
             </li>
             <li className="menu-item has-child">
-              <Link to="/Why">Why?</Link>
+              <Link to="/about">Why?</Link>
             </li>
             <li className="menu-item has-child">
-              <Link to="/How">How?</Link>
+              <Link to="/users">How?</Link>
             </li>
           </ul>
         </nav>
@@ -26,13 +26,13 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/How">
+          <Route path="/about">
             <How />
           </Route>
-          <Route path="/Why">
+          <Route path="/users">
             <Why />
           </Route>
-          <Route path="/What">
+          <Route path="/">
             <What />
           </Route>
         </Switch>

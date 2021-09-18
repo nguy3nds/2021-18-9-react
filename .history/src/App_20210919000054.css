@@ -25,8 +25,7 @@ body {
   font-size: 1.4rem;
   overflow-x: hidden;
   font-weight: 300;
-  width: 500px;
-  margin: 0 auto;
+  w500px
 }
 
 img {

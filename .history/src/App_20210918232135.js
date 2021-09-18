@@ -1,9 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
-import What from "./components/What.js";
-import How from "./components/Why";
-import Why from "./components/How";
+import Home from "./components/What.js";
 
 export default function App() {
   return (
@@ -12,13 +10,13 @@ export default function App() {
         <nav>
           <ul className="menu">
             <li class="menu-item has-child">
-              <Link to="/What">What?</Link>
+              <Link to="/">What?</Link>
             </li>
             <li className="menu-item has-child">
-              <Link to="/Why">Why?</Link>
+              <Link to="/about">Why?</Link>
             </li>
             <li className="menu-item has-child">
-              <Link to="/How">How?</Link>
+              <Link to="/users">How?</Link>
             </li>
           </ul>
         </nav>
@@ -26,17 +24,25 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/How">
-            <How />
+          <Route path="/about">
+            <About />
           </Route>
-          <Route path="/Why">
-            <Why />
+          <Route path="/users">
+            <Users />
           </Route>
-          <Route path="/What">
-            <What />
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </div>
     </Router>
   );
+}
+
+function About() {
+  return <h2>About</h2>;
+}
+
+function Users() {
+  return <h2>Users</h2>;
 }
