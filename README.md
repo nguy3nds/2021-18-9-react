@@ -4,7 +4,7 @@
 
 **Step 0**: $ git clone https://github.com/nguy3nds/2021-18-9-react.git
 
-**Step 1**: RUN $ cd 2021-18-9-react/
+**Step 1**: $ cd 2021-18-9-react/
 
 **Step 2**: $ git checkout master
 
