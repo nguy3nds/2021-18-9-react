@@ -1,3 +1,27 @@
+#React Router
+
+##To run app in local
+
+**Step 1**: After clone from github, RUN $ cd 2021-18-9-react/
+
+**Step 2**: $ git branch master
+
+**Step 3**: $ npm install
+
+**Step 4**: $ npm start
+
+##To push code to github
+
+**Step 1**: $ git init .
+
+**Step 2**: $ git add .
+
+**Step 3**: $ git commit -m"new commit"
+
+**Step 4**: $ git push
+
+##About react router
+
 1. **What is react router ?**
 
 `React Router` is a _standard library for routing in React_.
