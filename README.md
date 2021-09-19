@@ -4,7 +4,7 @@
 
 **Step 1**: After clone from github, RUN $ cd 2021-18-9-react/
 
-**Step 2**: $ git branch master
+**Step 2**: $ git checkout master
 
 **Step 3**: $ npm install
 
