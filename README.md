@@ -1,6 +1,6 @@
-#React Router
+# React Router
 
-##To run app in local
+### To run app in local
 
 **Step 0**: $ git clone https://github.com/nguy3nds/2021-18-9-react.git
 
@@ -12,7 +12,7 @@
 
 **Step 4**: $ npm start
 
-##To push code to github
+### To push code to github
 
 **Step 1**: $ git init .
 
@@ -22,7 +22,7 @@
 
 **Step 4**: $ git push
 
-##About react router
+### About react router
 
 1. **What is react router ?**
 
