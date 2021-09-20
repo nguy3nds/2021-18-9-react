@@ -3,7 +3,7 @@ import imgReactRouter1 from "../image/react-router-1.png";
 
 export default function What() {
   return (
-    <div style={{ width: "80%", margin: "0 auto" }}>
+    <div style={{ width: "80%", textAlign: "center" }}>
       <h4>What is react router ?</h4>
       <p>
         <b>React Router</b> is a standard library for routing in React.

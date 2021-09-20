@@ -72,7 +72,7 @@ const gradient = keyframes`
 `;
 
 const DivContainer = styled.div`
-  padding-top: 30px;
+  margin: 0;
   text-align: center;
   min-height: 100vh;
   color: #eee;

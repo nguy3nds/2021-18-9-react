@@ -9,7 +9,7 @@ export default function Tung() {
           faster, because only the contents that need to be updated will be
           updated, not the entire page or any other contents.
         </li>
-        <br />
+        <br>
         <li>
           In <b>backend routing</b>, server will rely on HTTP methods(GET,
           POST,PUT) and the path of the URL to handle request and send back

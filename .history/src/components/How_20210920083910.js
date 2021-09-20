@@ -24,6 +24,7 @@ export default function How() {
         <li>
           Example websites using SPA: Google, Facebook, Gmail, Youtube, Shopee
         </li>
+        <a href="https://shopee.vn"></a>
       </ul>
     </div>
   );
